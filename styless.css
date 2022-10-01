@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pai {
+  width: 100vw;
+  height: 100vh;
+}
+
+#navegar {
+  position: relative;
+  width: 20vw;
+  height: 100%;
+  background-color: greenyellow;
+  float: left;
+}
+
+.sobre {
+  position: relative;
+  width: 80vw;
+  height: 100%;
+  background-color: rgb(185, 185, 185);
+  float: left;
+}
+
+#foto {
+  position: absolute;
+  height: 26vh;
+  width: 14vw;
+  border-radius: 50%;
+  border: 3px solid black;
+  top: 25vh;
+  left: 2.5vw;
+}
+
+.nav_sobre {
+  position: absolute;
+  top: 60vh;
+  left: 7vw;
+}
+
+.conhecimentos {
+  position: absolute;
+  top: 65vh;
+  left: 4vw;
+}
+
+.objetivos {
+  position: absolute;
+  top: 55vh;
+  left: 4vw;
+}
+
+.objetivos_sobre {
+  position: absolute;
+  top: 30vh;
+  left: 3vw;
+  height: 30vh;
+  width: 65vw;
+}
+
+.lista {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.7rem;
+}
